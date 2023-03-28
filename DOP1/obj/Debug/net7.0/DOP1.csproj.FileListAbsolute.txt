@@ -1,0 +1,15 @@
+C:\GB\HomeWorkCs7\DOP1\bin\Debug\net7.0\DOP1.exe
+C:\GB\HomeWorkCs7\DOP1\bin\Debug\net7.0\DOP1.deps.json
+C:\GB\HomeWorkCs7\DOP1\bin\Debug\net7.0\DOP1.runtimeconfig.json
+C:\GB\HomeWorkCs7\DOP1\bin\Debug\net7.0\DOP1.dll
+C:\GB\HomeWorkCs7\DOP1\bin\Debug\net7.0\DOP1.pdb
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.csproj.AssemblyReference.cache
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.AssemblyInfoInputs.cache
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.AssemblyInfo.cs
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.csproj.CoreCompileInputs.cache
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.dll
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\refint\DOP1.dll
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.pdb
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\DOP1.genruntimeconfig.cache
+C:\GB\HomeWorkCs7\DOP1\obj\Debug\net7.0\ref\DOP1.dll
