@@ -1,0 +1,15 @@
+C:\GB\HomeWorkCs7\DOP2\bin\Debug\net7.0\DOP2.exe
+C:\GB\HomeWorkCs7\DOP2\bin\Debug\net7.0\DOP2.deps.json
+C:\GB\HomeWorkCs7\DOP2\bin\Debug\net7.0\DOP2.runtimeconfig.json
+C:\GB\HomeWorkCs7\DOP2\bin\Debug\net7.0\DOP2.dll
+C:\GB\HomeWorkCs7\DOP2\bin\Debug\net7.0\DOP2.pdb
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.csproj.AssemblyReference.cache
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.AssemblyInfoInputs.cache
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.AssemblyInfo.cs
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.csproj.CoreCompileInputs.cache
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.dll
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\refint\DOP2.dll
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.pdb
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\DOP2.genruntimeconfig.cache
+C:\GB\HomeWorkCs7\DOP2\obj\Debug\net7.0\ref\DOP2.dll
