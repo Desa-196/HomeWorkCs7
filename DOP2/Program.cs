@@ -22,3 +22,85 @@
 Выходные данные
 В выходной файл OUTPUT.TXT необходимо вывести число пикселей негатива, которые неправильно сформированы Мишиной программой.
 */
+
+
+int[] ReadPositionArrayElement()
+{
+    Console.Write("Введите 2 числа позиции элемента в двумерном массиве через пробел: ");
+
+    int[] IntReadString = new int[2];
+    while (true)
+    {
+
+        string[] ReadString = Console.ReadLine()!.Split();
+        if (ReadString.Length != 2)
+        {
+            Console.Write("Необходимо ввести 2 числа позиции, повторите ввод: ");
+        }
+        else if (int.TryParse(ReadString[0], out IntReadString[0]) && int.TryParse(ReadString[1], out IntReadString[1]))
+        {
+            break;
+        }
+        else
+        {
+            Console.Write("Введены некорректные числа, повторите попытку ввода:");
+        }
+    }
+    return IntReadString;
+}
+
+void FillRandomArray(string[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            array[i, j] = (new Random().Next(0, 2) == 0)?"B":"W";
+        }
+    }
+}
+
+//Выводит массив в консоль
+void PrintArray(string[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j]);
+        }
+        Console.WriteLine();
+    }
+}
+
+//Функция считает несовпадающие символы в двух массивах
+int CountErrorPixel(string[,] OriginMatrix, string[,] NegativeMatrix)
+{
+    int count = 0;
+
+    for (int i = 0; i < OriginMatrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < OriginMatrix.GetLength(1); j++)
+        {
+            if(OriginMatrix[i, j] != NegativeMatrix[i, j]) count++;
+        }
+    }
+
+    return count;
+}
+
+//Считываем из консоли размерность массива
+int[] PositionArray = ReadPositionArrayElement();
+//Создаем массивы с орегинальным и негативным изображениями
+string[,] array = new string[PositionArray[0], PositionArray[1]];
+string[,] NegativeArray = new string[PositionArray[0], PositionArray[1]];
+//Заполняем орегинальное изображение случайными числами
+FillRandomArray(array);
+//Заполняем негативное изображение случайными числами, просто, что бы отличались
+FillRandomArray(NegativeArray);
+//выводим получившийся орегинальный массив
+PrintArray(array);
+Console.WriteLine();
+//выводим получившийся негативный массив
+PrintArray(NegativeArray);
+Console.WriteLine($"Кол-во ошибочных пикселей = {CountErrorPixel(array, NegativeArray)}");
