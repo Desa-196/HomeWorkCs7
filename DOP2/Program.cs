@@ -82,7 +82,8 @@ int CountErrorPixel(string[,] OriginMatrix, string[,] NegativeMatrix)
     {
         for (int j = 0; j < OriginMatrix.GetLength(1); j++)
         {
-            if(OriginMatrix[i, j] != NegativeMatrix[i, j]) count++;
+            //Должно быть равно, так как мы сравниваем негатив с орегиналом, и ошибкой будет одинаковое значение
+            if(OriginMatrix[i, j] == NegativeMatrix[i, j]) count++;
         }
     }
 
